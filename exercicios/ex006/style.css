@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@400&display=swap');
+
+* {
+    font-family: 'Handjet', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+header {
+    text-align: center;
+    margin: 10px;
+}
+
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(202, 207, 212);
+    width: 250px;
+    height: auto;
+    border-radius: 15px;
+    border-style: outset;
+    border-width: 0px 6px 7px 0px;
+    border-color: rgb(143, 147, 152);
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.375);
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    margin: 5px;
+}
+
+.mostrador {
+    width: 228px;
+    height: 45px;
+    background-color: rgb(116, 159, 116);
+    border-radius: 5px;
+    border: 3px inset rgb(116, 159, 116);
+    text-align: right;
+    padding: 5px;
+    margin: 8px 0px 8px 0px;
+    font-size: 20pt;
+}
+
+.teclas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 228px;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+
+.tecla {
+    display: flex;
+    background-color: rgb(205, 205, 205);
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 45px;
+    margin: 0.8px;
+    border-width: 3px 4px 4px 3px;
+    border-style: outset;
+    border-radius: 10px;
+    border-color: rgb(220, 220, 220);
+    cursor: pointer;
+    font-size: 17pt;
+}
+
+.teclaOp {
+    background-color: rgb(141, 155, 171);
+    border-color: rgb(171, 181, 207);
+}
+
+#t0 {
+    width: 110px;
+}
+
+#treset {
+    background-color: rgb(171, 141, 141);
+    border-color: rgb(207, 171, 171);
+}
