@@ -52,6 +52,8 @@ header {
     padding: 5px;
     margin: 8px 0px 8px 0px;
     font-size: 20pt;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .teclas {
