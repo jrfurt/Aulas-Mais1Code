@@ -1,5 +1,5 @@
 var numerosAleatorios = [0, 5, 3, 8, 10, 14];
-var soma = 0;
+let soma = 0;
 let tamanhoDoArray = numerosAleatorios.length;
 
 for (let i = 0; i < tamanhoDoArray; i++) {

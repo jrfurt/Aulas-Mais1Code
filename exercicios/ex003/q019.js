@@ -11,11 +11,10 @@ numeros[8] = 32;
 numeros[9] = 13;
 
 var numerosMaioresQueDez = "";
-let tamanhoDoArray = numeros.length;
 
-for (let i = 0; i < tamanhoDoArray; i++) {
-    if (numeros[i] > 9) {
-        numerosMaioresQueDez += numeros[i] + " ";
+for (let numero of numeros) {
+    if (numero > 10) {
+        numerosMaioresQueDez += numero + " ";
     }
 }
 

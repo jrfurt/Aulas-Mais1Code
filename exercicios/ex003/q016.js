@@ -1,10 +1,9 @@
-var palavras = ['café',  'feijão', 'joaninha', 'paralelepípedo',  'mascote'];
-let tamanhoDoArray = palavras.length;
+var palavras = ['café',  'feijão', 'anticonstitucionalissimamente', 'joaninha', 'paralelepípedo',  'mascote'];
 var maiorPalavra = palavras[0];
 
-for (let i = 1; i < tamanhoDoArray; i++) {
-    if (palavras[i]. length > maiorPalavra.length) {
-        maiorPalavra = palavras[i];
+for (let palavra of palavras) {
+    if (palavra.length > maiorPalavra.length) {
+        maiorPalavra = palavra;
     }
 }
 

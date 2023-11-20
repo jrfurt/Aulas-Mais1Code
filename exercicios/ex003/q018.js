@@ -1,10 +1,9 @@
 var nomes = ['Edivaldo', 'Aristides', 'Ana', 'Maria', 'Jonas'];
-let nomeEspecifico = 'Ana';
-let tamanhoDoArray = nomes.length;
+let nomeEspecifico = 'Clara';
 let achei = false;
 
-for (let i = 0; i < tamanhoDoArray; i++) {
-    if (nomeEspecifico == nomes[i]) {
+for (let nome of nomes) {
+    if (nome == nomeEspecifico) {
         achei = true;
     }
 }

@@ -1,5 +1,5 @@
 var cores = ['Laranja', 'Amarelo', 'Verde', 'Vermelho', 'Rosa'];
 
-for (let i = 0; i < cores.length; i++) {
-    console.log(cores[i]);
+for (let cor of cores) {
+    console.log(cor);
 }
